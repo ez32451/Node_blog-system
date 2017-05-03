@@ -24,7 +24,6 @@ html
             div
                 div(style='float:left;margin-top:10px;')=article.Username
                 div(style='float:right;margin-top:10px;')= article.CreateDate
-                br
-                (style='clear:both')=article.Article
+                br(style='clear:both')=article.Article
                 a(href='/users/message/'+article.id, style='float:right;margin-top:105px;margin-right:20px;') Leave a message
                 hr(style='margin-top:110px;')
